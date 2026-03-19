@@ -4,7 +4,7 @@ on:
   schedule:
     # Das 10h às 17h (BRT) = 13h às 20h (UTC)
     # Rodando no minuto 0 de cada hora, de segunda a sexta (1-5)
-    - cron: '0 13-20 * * 1-5'
+    - cron: '19 13-20 * * 1-5'
   workflow_dispatch: 
 
 jobs:
