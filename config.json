@@ -1,0 +1,6 @@
+{
+  "monitoramento": [
+    {"ticker": "PETR4", "min": 45.00, "max": 50.00},
+
+  ]
+}
