@@ -2,13 +2,9 @@
   "monitoramento": [
     {
       "ticker": "PETR4",
-      "min": 30.00,
-      "max": 42.00
+      "min": 45.00,
+      "max": 47.50
     },
-    {
-      "ticker": "VALE3",
-      "min": 60.00,
-      "max": 75.00
-    }
+   
   ]
 }
