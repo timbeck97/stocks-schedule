@@ -28,6 +28,9 @@ def verificar_carteira():
     if hora_atual_utc in [13, 14]:
         enviar_telegram("🤖 *Monitor de Ações:* Sistema online. O mercado abriu e estou a vigiar os seus ativos!")
     config = carregar_configuracoes()
+    if not config:
+
+        return 
     tickers_str = ",".join(config.keys())
     
     url = f"https://brapi.dev/api/quote/{tickers_str}?token={TOKEN_BRAPI}"
