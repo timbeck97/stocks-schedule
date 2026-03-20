@@ -2,11 +2,6 @@
   "monitoramento": [
     {
       "ticker": "PETR4",
-      "min": 46.00,
-      "max": 49.00
-    },
-    {
-      "ticker": "PETR4",
       "min": 33.00,
       "max": 60.00
     }
