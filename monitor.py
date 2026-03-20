@@ -25,7 +25,7 @@ def enviar_telegram(mensagem):
 
 def verificar_carteira():
     hora_atual_utc = datetime.utcnow().hour
-    if hora_atual_utc == 13:
+    if hora_atual_utc in [13, 14]:
         enviar_telegram("🤖 *Monitor de Ações:* Sistema online. O mercado abriu e estou a vigiar os seus ativos!")
     config = carregar_configuracoes()
     tickers_str = ",".join(config.keys())
