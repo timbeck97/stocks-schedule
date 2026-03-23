@@ -4,6 +4,11 @@
       "ticker": "PETR4",
       "min": 33.00,
       "max": 60.00
+    },
+     {
+      "ticker": "SAPR4",
+      "min": 7.40,
+      "max": 60.00
     }
    
   ]
